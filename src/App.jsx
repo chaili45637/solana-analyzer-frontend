@@ -15,7 +15,6 @@ function App() {
     setResult(null);
 
     try {
-      // 这里替换成你的后端实际地址
       const response = await fetch(`https://proud-karin-chaili45637-bb58559f.koyeb.app/analyze?address=${address}`);
       const data = await response.json();
       setResult(data);
