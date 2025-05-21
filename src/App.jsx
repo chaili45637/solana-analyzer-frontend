@@ -56,6 +56,23 @@ function App() {
           <p><strong>Wallet Value:</strong> {result.total_value} SOL</p >
         </div>
       )}
+
+      {/* 支持与广告区域 */}
+      <div style={{ marginTop: "3rem", padding: "1rem", borderTop: "1px solid #ccc" }}>
+        <h3>Support / Contact</h3>
+        <p><strong>打赏地址:</strong> AXhaUwtdcgyRUymnREPbADD5bo2dvqX1rh4WghjLpdbj</p >
+        <p><strong>合作/广告请联系：</strong></p >
+        <ul>
+          <li>Twitter: @adboosthub</li>
+          <li>Telegram: </li>
+          <li>Email: </li>
+        </ul>
+
+        <h4>广告位</h4>
+        <p>广告位一（联系邮箱投放）</p >
+        <p>广告位二</p >
+        <p>广告位三</p >
+      </div>
     </div>
   );
 }
